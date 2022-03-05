@@ -1,0 +1,110 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+</style>
+
+@media (max-width: 960px) {
+
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+ 
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+
+  .container {
+    width: 300px;
+  }
+}
+
+
+h1 {
+font-size: 42px;
+font-family: 'Roboto', sans-serif;
+} 
+
+h2 {
+font-size: 26px;
+} 
+
+h1, h2, h3 {
+
+  font-family: 'Arial', serif;
+  color: black;
+} 
+
+body {
+	background: white;
+	color: rgb(80, 80, 80);
+text-align: center;
+font-size: 18px;
+font-family: helvetica;
+} 
+
+a {
+  color: black;
+}
+a:hover {
+  color: darkgrey;
+  text-decoration: underline;
+}
+
+div{
+ text-align: center;
+}
+
+.btn {
+ border-radius: 8px;
+ text-decoration: none;
+ text-align: center;
+ background: rgb(200, 200, 200);
+ width: 40;
+ height: 30;
+ color: white;
+ padding: 15px ;
+ margin: 10px ;
+ margin-top: 40px;
+}
+
+.circle{
+ border-radius: 50%;
+}
+
+
+.inline {
+ list-style: none;
+ margin: 30px;
+ display: inline;
+ align-content: center;
+}
+
+.inline li {
+display: inline;
+}
+
+#intro {
+background: rgb( 210, 210, 210);  
+width: 900px;                      
+padding: 30px;          
+margin: 0 auto;
+border-radius: 8px;                        
+box-shadow: 0 10px 30px rgba(0,0,0,.1); 
+}
+
+.p {
+  background: rgb( 210, 210, 210);   
+padding: 15px;    
+margin: 30px;                         
+border-radius: 8px;                        
+box-shadow: 0 10px 30px rgba(0,0,0,.1); 
+}
+
+div .fin {
+height: 200px;
+text-align: center;
+}
+
